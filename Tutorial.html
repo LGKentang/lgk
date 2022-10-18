@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+        <style>
+            .header{
+                width:100%;
+                height:150px;
+                margin-top: 0;
+                background-color: rgb(46, 103, 209);
+
+            }
+            .friendsdiv{
+                width:100%px;
+                height:10px;
+                background-color: rgb(180, 200, 255);
+            }
+            .darren {
+                width: 160px;
+                height: 180px;
+                object-fit: cover;
+            }
+            p {
+                font-family: Arial;
+                margin-top: 1px;
+                margin-bottom: 1px;
+            }
+            .name{
+                font-weight: bold;
+                font-size: 18px;
+                margin-left: 8px;
+            }
+            .friends{
+                font-size: 16px;
+                color:rgb(77, 76, 76);
+                margin-left: 8px;
+                ;
+            }
+            .add{
+                background-color: rgb(56, 105, 240);
+                color:white;
+                border:none;
+                border-radius: 2px;
+                padding-top: 9px;
+                padding-bottom: 9px;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-left: 8px;
+                margin-top: 10px;
+                font-size: 16px;
+                transition:background-color 0.15s ease-in-out;
+            }
+            .maindiv{
+                border-radius: 3px;
+                width:160px;
+                height:290px;
+                display: inline-block;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                margin-left: 10px;
+                margin-right: 5px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                background-color: white;
+            }
+            .add:hover{
+                cursor:pointer;
+                background-color: rgb(78, 120, 235);
+            }
+            .add:focus{
+                background-color: grey;
+                
+            }
+            .thebody{
+                background-color: rgb(225, 248, 255);
+                margin-top: 0;
+                margin-left:0;
+                margin-right: 0;
+                margin-bottom: 0;
+            }
+            .textheader{
+                font-family:secular One;
+                font-size: 32px;
+                color:aliceblue;
+                display:inline-block;
+            }
+            .headertext{
+                position:sticky;
+                display: inline-block;
+                top:100px;
+                left:100%;
+                margin-right:6px;
+            }
+            .headfriendsdiv{
+                display: inline-block;
+            }
+            .smile{
+                width:24px;
+                vertical-align:middle;
+                margin-right: 0;
+                margin-bottom: 5px;
+            }
+            .friendstexthead{
+                display: inline-block;
+                color: aliceblue;
+                font-size: 18px;
+                font-family: secular One;
+                text-align: center;
+            }
+            .friendsbutton{
+                margin-left: 6px;
+                margin-top: 1px;
+                background: none;
+                border: none;
+                color: aliceblue;  
+                box-shadow: 0 0 2px rgba(0, 0, 0, 0.24);
+                transition:margin-left 0.1s,background-color 0.1s ease-in-out;
+               
+                
+            }
+            .friendsbutton:hover{
+                margin-left: 10px;
+                background-color: rgb(78, 120, 235);
+                cursor:pointer;
+            }
+            .friendsbutton:active{
+                background-color:rgb(58, 89, 175);
+            }
+            .inputsearch{
+                display: inline-block;
+                left: 100%;
+                position:sticky;
+                
+            }
+            .searchbar{
+                background:none;
+                border: none;
+                box-shadow: 0 0 1px rgba(0,0,0,0.5);
+                transition: box-shadow 0.2s;
+            }
+            ::placeholder{
+                font-family: secular One;
+                color:rgba(255,255,255,0.1);
+                
+            }
+            .searchbar:hover{
+                box-shadow: 0 0 1px rgba(0,0,0,0.9);
+            }
+            input:focus{
+                outline:none;
+            }
+            
+        </style>
+
+    </head>
+    <body class="thebody">
+
+        <div class="header">
+            <div class="headfriendsdiv">
+                <a href="Tutorial.html" >
+                    <button class="friendsbutton">
+                        <img class="smile" src="/Thumbnails/1051270.png">
+                        <p class="friendstexthead">Friends</p>
+                </button>
+                </a>
+            </div>
+            <div class="inputsearch">
+                <input size="50" class= "searchbar" type="text" placeholder="What's up?">
+            </div>
+            <div class="headnotifdiv">
+                <a href="Tutorial_2.html">
+                    <button class="friendsbutton">
+                        <img class="smile" src="/Thumbnails/bell-icon-8.png">
+                        <p class="friendstexthead">Notifications</p>
+                    </button>
+                </a>
+            </div>
+            
+            <div class="headnotifdiv">
+                <a href="Tutorial_3.html">
+                    <button class="friendsbutton">
+                        <img class="smile" src="Thumbnails/orange-plus-clip-art-clkerm-vector-clip-art-online-1.png">
+                        <p class="friendstexthead">Post</p>
+                    </button>
+                </a>
+            </div>
+            <div class="headertext">
+                <p class="textheader">DarrenBook</p>
+            </div>
+        </div>
+        <div class="friendsdiv"></div>
+
+        <div class="maindiv">
+            <img class="darren" src="/Thumbnails/download - Copy.png">
+            <p class="name">Darren Maverick</p>
+            <p class="friends">No mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+
+        <div class="maindiv">
+            <img class="darren" src="/Thumbnails/72619.jpg">
+            <p class="name">Ubek</p>
+            <p class="friends">3 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+
+        <div class="maindiv">
+            <img class="darren" src="/Thumbnails/Screenshot 2022-10-19 023449.png">
+            <p class="name">Justin Enriko</p>
+            <p class="friends">69 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+
+        <div class="maindiv">
+            <img class="darren" src="/Thumbnails/Screenshot 2022-10-19 023927.png">
+            <p class="name">Valeryan Tan
+            </p>
+            <p class="friends">12 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+
+        
+        <div class="maindiv">
+            <img class="darren" src="/Thumbnails/Screenshot 2022-10-19 024746.png">
+            <p class="name">Kevin S
+            </p>
+            <p class="friends">100 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+
+        <div class="maindiv">
+            <img class="darren" src="/Thumbnails/Screenshot 2022-10-19 040921.png">
+            <p class="name">Regi</p>
+            <p class="friends">5 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+
+        <div class="maindiv">
+            <img class="darren" src="/Thumbnails/Screenshot 2022-10-19 041115.png">
+            <p class="name">Vincent</p>
+            <p class="friends">9 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+
+        <div class="maindiv">
+            <img class="darren" src="/Thumbnails/72622.jpg">
+            <p class="name">Melvin Lee</p>
+            <p class="friends">12 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+
+        <div class="maindiv">
+            <img class="darren" src="/Thumbnails/72624.jpg">
+            <p class="name">Gabriel Abhiseka</p>
+            <p class="friends">12 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+
+        
+        <div class="maindiv">
+            <img class="darren" src="/Thumbnails/72625.jpg">
+            <p class="name">Sinkapo</p>
+            <p class="friends">10 mutual friends</p>
+            <button class="add">Add Friend</button>
+        </div>
+ 
+
+
+
+        
+      
+
+    </body>
+</html>
